@@ -11,7 +11,9 @@ function ProductList() {
 
     console.log(listOfProducts);
 
-    if(loading) return <h1>Loading... please wait....</h1>
+    if(loading) return (
+    <h2>Loading... please wait....</h2>
+)
 
     return (
         <section className="py-12 bg-white sm:py-16 lg:py-20">
