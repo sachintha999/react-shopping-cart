@@ -8,6 +8,11 @@ function ProductTile({ singleProductTile }) {
                     className="w-full h-full transition-all duration-300 group-hover:scale-125 object-cover"
                 />   
             </div>
+            <div className="flex items-start justify-between mt-4 space-x-4">
+                <div className="font-bold text-gray-900 sm:text-sm text-xs md:text-base">
+                    <p className="w-[100px] overflow-hidden text-ellipsis white-space-nowrap">{singleProductTile?.title}</p>
+                </div>
+            </div>
         </div>
     );
 }
