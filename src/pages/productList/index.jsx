@@ -28,7 +28,7 @@ function ProductList() {
 
                     {
                         listOfProducts && listOfProducts.length > 0 ?
-                        listOfProducts.map(singleProductTile=> <ProductTile/>):  <h3>No products found</h3>
+                        listOfProducts.map(singleProductTile=> <ProductTile singleProductTile={singleProductTile} />):  <h3>No products found</h3>
                            
                     }
                 </div>
